@@ -113,7 +113,7 @@ body {
         "nav article"
         "nav footer";
     grid-template-rows: 1fr 1fr 70px 70px;
-    grid-template-columns: 20% 1fr;
+    grid-template-columns: 6% 1fr;
     grid-row-gap: 0px;
     grid-column-gap: 0px;
     height: 100vh;
@@ -451,7 +451,6 @@ a.navlink:hover {
     z-index: 99;
     border: none;
     outline: none;
-    color: white;
     cursor: pointer;
     padding: 13px;
     border-radius: 5px;
@@ -459,23 +458,23 @@ a.navlink:hover {
     font-weight: 700;
     letter-spacing: -0.03em;
     color: #4572FC; /* non-webkit fallback */
-    background: #4572FC; /* non-webkit fallback */
-    background: linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
+    /* background: #4572FC; /* non-webkit fallback */
+    /* background: linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
     -webkit-linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 h1 {
     margin-bottom: 0em; /* previously 0.3em */
     font-size: 7em;
     font-weight: 700;
     letter-spacing: -0.03em;
-    color: #4572FC; /* non-webkit fallback */
-    background: #4572FC; /* non-webkit fallback */
-    background: linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 50%);
-    -webkit-linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 50%);
+    color: #14bea9; /* non-webkit fallback */
+    /* background: #4572FC; /* non-webkit fallback */
+    /* background: linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
+    -webkit-linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 h2 {
     margin-top: 1.5em;
@@ -578,12 +577,12 @@ p.small {
         grid-template-columns: repeat(auto-fill, minmax(780px, 1fr));
     }
     h1 {
-        color: #4572FC; /* non-webkit fallback */
-        background: #4572FC; /* non-webkit fallback */
-        background: linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
-        -webkit-linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #14bea9; /* non-webkit fallback */
+    /* background: #4572FC; /* non-webkit fallback */
+    /* background: linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
+    -webkit-linear-gradient(90deg, rgba(69,114,252,1) 0%, rgba(49,223,106,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
     }
     p.large {
         margin-right: 4em;
